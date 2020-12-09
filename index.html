@@ -817,7 +817,7 @@
                     <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                         <h5 class="text-light footer-head">Contact Us</h5>
                         <p class="mt-4">Drop a message and we'll get in touch with you soon!</p>
-                        <form>
+                        <form method="POST" data-netlify="true">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="foot-subscribe form-group">
@@ -833,7 +833,7 @@
                                         </div>
                                         <label>Your Message <span class="text-danger">*</span></label>
                                         <div class="position-relative">
-                                            <input type="email" name="email" id="emailsubscribe"
+                                            <input type="text" name="message" id="messagesubscribe"
                                                 class="form-control mb-3 rounded" placeholder="Your Message : "
                                                 required>
                                         </div>
